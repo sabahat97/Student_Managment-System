@@ -101,6 +101,18 @@ console.log (chalk.white("Welcome to abc Course from xyz Campus\nFill the form w
             message :"Add Your Education!"
         },
         {
+            name :"Course fee",
+            type :"checkbox",
+            message:"which course u apply",
+            choices:["Digital Marketing fee 1000","Mobile Web Marketing fee 1000","Search Engine Optimization(SEO) fee 1000","Google Ads"]
+            
+        },
+        {
+            name :"Fee",
+            type :"number",
+            message :"Payment method\n Enter your account number / iban number"
+        },
+        {
             name :"Submitted Your Form",
             type :"input",
             message:"Enter to submitt your form"
